@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 from sklearn.datasets import load_iris
-
+print("hello world")
 # Load the trained model
 model = joblib.load("iris_model.pkl")
 
